@@ -57,6 +57,6 @@ jobs:
             Install:
 
             ```bash
-            npm install -g mcp-gate@${{ steps.version.outputs.value }}
-            # or: npx -y mcp-gate@${{ steps.version.outputs.value }} --help
+            npm install -g @seoo2001/mcp-gate@${{ steps.version.outputs.value }}
+            # or: npx -y @seoo2001/mcp-gate@${{ steps.version.outputs.value }} --help
             ```

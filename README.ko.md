@@ -38,11 +38,11 @@ MCP 서버는 실제 자격 증명을 받지 않습니다. mcp-gate는 서버를
 ## 설치
 
 ```bash
-# npm 패키지
-npm install -g mcp-gate
+# npm 패키지 (무관한 `mcpgate` 패키지와 이름 충돌을 피하려고 scoped 이름 사용)
+npm install -g @seoo2001/mcp-gate
 
 # 전역 설치 없이 실행
-npx -y mcp-gate --help
+npx -y @seoo2001/mcp-gate --help
 
 # 소스에서 빌드
 git clone https://github.com/seoo2001/mcp-gate
@@ -98,7 +98,7 @@ mcp-gate wrap --service=github --node-shim npx -y @modelcontextprotocol/server-g
       "command": "npx",
       "args": [
         "-y",
-        "mcp-gate",
+        "@seoo2001/mcp-gate",
         "wrap",
         "--service=github",
         "--node-shim",

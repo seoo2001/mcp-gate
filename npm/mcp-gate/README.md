@@ -5,10 +5,10 @@ mcp-gate is a local credential vault and HTTPS proxy for MCP servers. It keeps l
 ## Install
 
 ```bash
-npm install -g mcp-gate
+npm install -g @seoo2001/mcp-gate
 
 # or run on demand without installing globally
-npx -y mcp-gate --help
+npx -y @seoo2001/mcp-gate --help
 ```
 
 This package ships a small JavaScript shim that loads the prebuilt binary for your platform from one of:
@@ -43,7 +43,7 @@ Use the same shape in `mcp.json`:
       "command": "npx",
       "args": [
         "-y",
-        "mcp-gate",
+        "@seoo2001/mcp-gate",
         "wrap",
         "--service=github",
         "--node-shim",

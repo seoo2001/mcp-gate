@@ -38,11 +38,11 @@ The MCP server never receives the real credential. mcp-gate starts the server as
 ## Install
 
 ```bash
-# npm package
-npm install -g mcp-gate
+# npm package (scoped to avoid a name collision with an unrelated `mcpgate` package)
+npm install -g @seoo2001/mcp-gate
 
 # or run on demand without installing globally
-npx -y mcp-gate --help
+npx -y @seoo2001/mcp-gate --help
 
 # from source
 git clone https://github.com/seoo2001/mcp-gate
@@ -98,7 +98,7 @@ Or run mcp-gate itself through `npx`:
       "command": "npx",
       "args": [
         "-y",
-        "mcp-gate",
+        "@seoo2001/mcp-gate",
         "wrap",
         "--service=github",
         "--node-shim",

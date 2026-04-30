@@ -1,5 +1,5 @@
 {
-  "name": "mcp-gate",
+  "name": "@seoo2001/mcp-gate",
   "version": "0.0.0-dev",
   "description": "Credential vault + proxy for MCP servers — keep PATs out of MCP server processes.",
   "keywords": [
