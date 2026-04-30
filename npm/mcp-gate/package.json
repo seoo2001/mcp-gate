@@ -1,0 +1,40 @@
+{
+  "name": "mcp-gate",
+  "version": "0.0.0-dev",
+  "description": "Credential vault + proxy for MCP servers — keep PATs out of MCP server processes.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "credentials",
+    "vault",
+    "proxy",
+    "security"
+  ],
+  "homepage": "https://github.com/seoo2001/mcp-gate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seoo2001/mcp-gate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seoo2001/mcp-gate/issues"
+  },
+  "license": "MIT",
+  "bin": {
+    "mcp-gate": "bin/cli.js"
+  },
+  "files": [
+    "bin/cli.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "optionalDependencies": {
+    "mcp-gate-darwin-arm64": "0.0.0-dev",
+    "mcp-gate-darwin-x64": "0.0.0-dev",
+    "mcp-gate-linux-x64": "0.0.0-dev",
+    "mcp-gate-linux-arm64": "0.0.0-dev"
+  }
+}

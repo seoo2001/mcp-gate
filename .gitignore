@@ -1,0 +1,37 @@
+# Binaries
+/mcp-gate
+/bin/
+*.exe
+*.test
+*.out
+
+# Go
+vendor/
+
+# IDEs
+.idea/
+.vscode/
+
+# Local data
+.mcp-gate/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Test coverage
+coverage.out
+coverage.html
+
+# npm release artifacts
+/dist/
+node_modules/
+
+# Private strategy / planning docs (not for public repo)
+/private/
